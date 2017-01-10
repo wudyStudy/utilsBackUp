@@ -44,7 +44,7 @@ import com.fasterxml.jackson.core.JsonParser;
 
 /**
  * 
- * @Description: 同盾提供的API接口工具类
+ * @Description:
  * @author woody
  * @date 2015年8月28日 下午5:33:45
  *
@@ -81,7 +81,6 @@ public class HttpClientUtil {
 	/**
 	 * 
 	 * @param url
-	 * @param contextType
 	 *            "image/jpeg","application/Json"
 	 * @return
 	 */
@@ -228,8 +227,7 @@ public class HttpClientUtil {
 	 * 
 	 * @author gc.nie
 	 * @param urlString
-	 * @param request
-	 * @param encode
+	 * @param paramMap
 	 * @return
 	 */
 	public static String sendHttpPostUrl(String urlString, Map<String, String> paramMap) {
@@ -330,7 +328,7 @@ public class HttpClientUtil {
 	/**
 	 * 
 	 * @author
-	 * @param request
+	 * @param paramMap
 	 * @return
 	 */
 	private static List<NameValuePair> buildPostParam(Map<String, String> paramMap) {
@@ -348,7 +346,8 @@ public class HttpClientUtil {
 	/**
 	 * 
 	 * @author
-	 * @param request
+	 * @param paramMap
+	 * @param urlStr
 	 * @return
 	 */
 	private static URIBuilder buildUrlParam(Map<String, String> paramMap, String urlStr) {
