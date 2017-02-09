@@ -42,13 +42,7 @@ import org.apache.http.util.EntityUtils;
 
 import com.fasterxml.jackson.core.JsonParser;
 
-/**
- * 
- * @Description:
- * @author woody
- * @date 2015年8月28日 下午5:33:45
- *
- */
+
 public class HttpClientUtil {
 
 	private static PoolingHttpClientConnectionManager connMgr;

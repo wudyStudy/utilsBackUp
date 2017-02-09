@@ -16,8 +16,6 @@ import com.test.utilsBackUp.other.StringUtil;
 
 /**
  * @Description 将xml字符串转换为java对象的工具类 
- * @author  
- * @date  
  */
 public class XmlToObjectUtil {
 	private Map<String, Object> xmlNodes = new HashMap<String, Object>();

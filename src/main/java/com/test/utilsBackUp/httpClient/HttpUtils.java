@@ -47,13 +47,7 @@ import org.apache.http.util.EntityUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/**
- * @author zhangminghui.
- * @Description:
- * @date: 2017/1/10
- * @time: 14:53
- * @Copyright: 2016 Hangzhou Enniu Tech Ltd. All rights reserved.
- */
+
 public class HttpUtils {
     private final static Logger LOGGER = LoggerFactory.getLogger(HttpUtils.class);
 
